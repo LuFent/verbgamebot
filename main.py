@@ -20,7 +20,7 @@ async def answer(update, context):
 
 
 def main():
-    application = Application.builder().token('').build()
+    application = Application.builder().token('5518463606:AAG0DTysezhhXavWr7MAyWd2QMz7sSbqPAQ').build()
 
  #   start_handler = CommandHandler('start', start)
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, answer))
