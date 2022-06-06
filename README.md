@@ -13,18 +13,18 @@
 * Создайте агента в DialogFlow, и скачайте json файл с информацией об аккаунте
 * Добавить переменную PATH ```GOOGLE_APPLICATION_CREDENTIALS``` в которой будет
 путь к json конфигурации сервисного аккаунта Google
-*Скачайте python3 и загрузите зависимости командой
+* Скачайте python3 и загрузите зависимости командой
 ```
 pip3 install -r requirements.txt
 ```
-*Создайте .env файл со следующим содержанием:
+* Создайте .env файл со следующим содержанием:
 ```
 export ADMIN_ID=<Ваш id в Телеграм(можно получить, написав боту userinfobot)>
 export TG_API_KEY=<Ваш API ключ для Telegram>
 export DIALOG_FLOW_ID=<ID Вашего Агента DialogFlow>
 export VK_API_KEY=<Ваш API ключ для группы вк>
 ```
-*запустить скрипты командами
+* запустить скрипты командами
 ```
 python3 tg_bot.py
 ```
